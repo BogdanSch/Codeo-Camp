@@ -1,0 +1,59 @@
+/*
+ * We gaan het hebben over:
+ * - transition
+ * - animation
+ * - transform
+ */
+*{
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+div {
+  display: block;
+  width: 100px; 
+  height: 100px;
+  background: rgb(217, 255, 0);
+  position: absolute;
+  margin: 10% 10%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.box-1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.box-2{
+  left: 10%;
+  animation-duration: 3s;
+  animation-name: slidein;
+  /* animation-delay: 3s; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+.box-3{
+  left: 15%;
+  animation-duration: 4s;
+  animation-name: slidein;
+  /* animation-delay: 3s; */
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+@keyframes slidein {
+  from {
+    /* /* margin-left: 100%; */
+    /* width: 200%; */
+    transform: rotate(730deg) scale(2);
+  }
+  to {
+    transform: rotate(0deg) scale(1) translate(50%, 40px);
+    background: rgb(195, 255, 0);
+    /* margin-top: 5%;
+    margin-left: 0%;
+    */
+    width: 40%; 
+  }
+}
+

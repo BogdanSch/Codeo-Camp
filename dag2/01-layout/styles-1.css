@@ -1,0 +1,42 @@
+/*
+ * We gaan het hebben over:
+ * - display (inline, block)
+ * - width
+ * - height
+ * - margin
+ * - padding
+ *
+ * Maar eerst: de CSS class
+ */
+ *{
+  box-sizing: border-box;
+}
+:root{
+  --size: 100px;
+}
+.rondje {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  width: var(--size);
+  height: var(--size);
+}
+.red{
+  background: rgba(255, 0, 0, 0.811);
+}
+.yellow{
+  background: rgb(234, 255, 0);
+}
+.green{
+  background: #09ff00;
+}
+.achtergrond{
+  background: #000;
+  padding: 40px 0;
+  width: 300px;
+  border-radius: 35%;
+}

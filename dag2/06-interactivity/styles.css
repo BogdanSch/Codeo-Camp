@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+
+.box {
+  transition: all .7s ease;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #f00;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+
+body {
+  /* De browser zet standaard wat margin op de body, die willen we weghalen */
+  margin: 0;
+}

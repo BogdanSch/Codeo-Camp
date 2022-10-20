@@ -1,0 +1,13 @@
+.box {
+  width: 300px;
+  height: 100px;
+  background: #f00;
+  position: absolute;
+  transition: all .2s ease;
+  border-radius: 20px;
+  /* transform: rotate(90deg); */
+}
+
+body {
+  margin: 0;
+}

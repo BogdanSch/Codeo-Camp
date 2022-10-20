@@ -1,0 +1,30 @@
+/*
+ * We gaan het hebben over
+ * - position
+ * - left/right/top/bottom
+ * - z-index
+*/
+*{
+  box-sizing: border-box;
+}
+div {
+  display: block;
+  width: 100px; 
+  height: 100px;
+  background: linear-gradient(357deg, rgba(139,126,3,1) 0%, rgba(205,107,107,1) 20%, rgba(245,127,1,1) 100%);
+  position: absolute;
+}
+.top-right{
+  right: 0;
+  top: 0;
+}
+.bottom-right{
+  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  right: 0;
+  bottom: 0;
+}
+.bottom-left{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  bottom: 0;
+  left: 0;
+}

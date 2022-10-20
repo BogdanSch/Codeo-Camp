@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin-top: -50px;
+  margin-left: -50px;
+  transition: all .7s;
+  display: block;
+  position: absolute;
+}
+
+body {
+  margin: 0;
+}
+
+/*# sourceMappingURL=index.bd506852.css.map */
